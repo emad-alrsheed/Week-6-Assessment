@@ -30,6 +30,17 @@ var arrOfObj2 = [
   { c: 'duck' }
 ]
 
+////////////
+*/
+
+var record=[]
+function addKeyPowerIndex(arr){
+  for(i=0;i< arr.length;i++);
+  
+
+  return arr.push(arr)
+}
+/*
 Ex: addKeyPowerIndex(arrOfObj2)
 => [
   {0: 0, a: 'cat'},
@@ -63,9 +74,13 @@ Ex: decreseBy(arrOfnum1,10)
 Ex: decreseBy(arrOfNum1,-6)
 => [83, 11, 39]
 */
+var i=0
+var 
+function decreseBy(arr,num) {
+for(i=0;i<arr.length;i++)
 
-function decreseBy() {
-  // WRITE YOUR CODE UNDER THIS LINE 
+  return arr.map(i=>i-num)
+  
 
 }
 
@@ -81,7 +96,7 @@ that takes an array of objects and number as a parameter
 and return a new array with only the object has a value inside 
 the key name longer than this number
 
-var arrOfObj4 = [
+var arrOfObj3 = [
   { name: "alex" },
   { name: "mercer"},
   { name: "alice" },
@@ -101,9 +116,14 @@ Ex: nameLongerThan(arrOfObj4,6)
   { name: "elizabeth"}
 ]
 */
-
+var x=0
+var arr=[]
 function nameLongerThan() {
-  // WRITE YOUR CODE UNDER THIS LINE         
+  // WRITE YOUR CODE UNDER THIS LINE  
+  
+  return arr.filtar(arr=>arr.length)
+  
+  console.log(arr)
 }
 
 
@@ -132,10 +152,12 @@ Ex: avgLength(arrOfObj4,"name")
 Ex: avgLength(arrOfObj4,"food")
 => 6.8
 */
-
+var arr=[]
 function avgLength() {
   // WRITE YOUR CODE UNDER THIS LINE         
-
+for(var i=0;i<arr.length;i++)
+avg=value.length/arr.length
+arr.reduce(avg)
 }
 
 // Good luck :)
